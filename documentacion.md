@@ -288,3 +288,21 @@ body.dark-mode .service-icon {
 ## **Contacto**
 
 Para más información, contáctanos en soporte@miweb.com
+
+## **Casos de prueba**
+
+| #  | Funcionalidad                   | Descripción breve                                               | Pasos | Resultado esperado |
+|----|----------------------------------|----------------------------------------------------------------|-------|--------------------|
+| 1  | Carga de la página              | Verificar que `index.html` carga correctamente.                | 1. Abrir la página en el navegador. <br> 2. Revisar que no haya errores en consola. <br> 3. Asegurar que los estilos se aplican correctamente. | La página carga sin errores y con diseño correcto. |
+| 2  | Navbar y enlaces                | Comprobar que el menú de navegación funciona bien.              | 1. Hacer clic en cada enlace del navbar. <br> 2. Asegurar que redirige a la página correcta. | Los enlaces navegan correctamente. |
+| 3  | Modo Oscuro                     | Validar que el botón cambia el tema y lo guarda en `localStorage`. | 1. Hacer clic en el botón de modo oscuro/claro. <br> 2. Verificar que cambia el tema. <br> 3. Recargar la página y ver si mantiene el tema seleccionado. | La página recuerda el tema tras recargar. |
+| 4  | Reloj en tiempo real            | Asegurar que el reloj se actualiza cada segundo.               | 1. Observar el reloj en la parte superior. <br> 2. Confirmar que la hora cambia dinámicamente. | El reloj muestra la hora actual y se actualiza. |
+| 5  | Formulario de Contacto          | Verificar que el formulario no se envíe con campos vacíos.     | 1. Intentar enviar el formulario sin llenar los campos. <br> 2. Validar que muestra un mensaje de error. | No permite enviar datos vacíos. |
+| 6  | Envío de Formulario             | Asegurar que se muestra el mensaje de éxito tras enviar el formulario. | 1. Completar el formulario. <br> 2. Hacer clic en "Enviar". <br> 3. Verificar que aparece el mensaje "Formulario enviado correctamente". | Muestra el mensaje de éxito. |
+| 7  | Limpiar Formulario              | Comprobar que el botón "Limpiar" borra todos los campos.       | 1. Llenar el formulario con datos. <br> 2. Hacer clic en "Limpiar". <br> 3. Revisar que los campos estén vacíos. | Los campos quedan vacíos tras limpiar. |
+| 8  | Carga de imágenes dinámicas     | Asegurar que las imágenes de la galería se cargan desde la API. | 1. Abrir la página. <br> 2. Verificar que aparecen imágenes en la galería. | Las imágenes se cargan correctamente desde la API. |
+| 9  | Tabla de datos de clientes      | Validar que la tabla de clientes muestre información desde la API. | 1. Ir a la tabla de datos. <br> 2. Esperar que se carguen los datos. <br> 3. Verificar que aparecen ID, nombre, email y teléfono. | La tabla muestra datos correctamente sin errores. |
+| 10 | Cambio de color de la tabla     | Probar que el selector de color cambia el fondo de la tabla.  | 1. Seleccionar un color en el input de color. <br> 2. Confirmar que la tabla cambia de color. | El fondo de la tabla cambia al color seleccionado. |
+| 11 | Gráfico de usuarios             | Asegurar que el gráfico de usuarios se genera correctamente.   | 1. Revisar el gráfico de usuarios. <br> 2. Validar que muestra datos correctamente sin errores en consola. | El gráfico se renderiza con la información correcta. |
+| 12 | Adaptabilidad (responsive)      | Confirmar que la web se ve bien en diferentes tamaños de pantalla. | 1. Reducir el tamaño del navegador. <br> 2. Probar en vista móvil (`F12 > Modo Dispositivo`). | La web se adapta bien a distintos tamaños de pantalla. |
+
